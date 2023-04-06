@@ -1,0 +1,65 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 375px;
+    background-color: #F5F5F5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 16px;
+    border-bottom: 1px solid #C6C6C6;
+    background-color: #FFFFFF;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    margin: 10px;
+}
+
+.post{
+    width: 375px;
+    height: 375px;
+}
+
+.sender{
+    display: flex;
+    align-items: center;
+}
+
+p{
+    font-size: 13px;
+    margin: 6px 0 6px 13px;
+}
+.sender p{
+    margin: 0;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    height: 45px;
+}
+
+.btn{
+    margin:10px;
+}
+
+section{
+    border-bottom: 25px #EDEDED solid;
+}
+
+.interactions{
+    margin-bottom: 16px;
+}
+
+.container{
+    background-color: #FFFFFF;
+}
